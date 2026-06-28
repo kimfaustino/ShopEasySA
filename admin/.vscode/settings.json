@@ -1,0 +1,8 @@
+{
+    "php.debug.executablePath": "C:\\Users\\kimbe\\Desktop\\setting up environment\\php\\php.exe",
+    "php.validate.executablePath": "C:\\Users\\kimbe\\Desktop\\setting up environment\\php\\php.exe",
+    "intelephense.files.maxSize": 5000000,
+    "files.associations": {
+        "*.php": "php"
+    }
+}
