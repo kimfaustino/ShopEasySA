@@ -126,7 +126,7 @@ include 'admin_header.php';
                     <div class="card shadow-sm">
                         <div class="card-header bg-white d-flex justify-content-between">
                             <h5 class="mb-0">Pending Product Approvals</h5>
-                            <a href="products.php?status=pending" class="btn btn-sm btn-primary">View All</a>
+                            <a href="admin_products.php?status=pending" class="btn btn-sm btn-primary">View All</a>
                         </div>
                         <div class="card-body p-0">
                             <div class="table-responsive">
@@ -142,8 +142,8 @@ include 'admin_header.php';
                                                 <td><?php echo $product['seller_name']; ?></td>
                                                 <td>R <?php echo number_format($product['price'], 2); ?></td>
                                                 <td>
-                                                    <a href="approve_product.php?id=<?php echo $product['product_id']; ?>" class="btn btn-sm btn-success">Approve</a>
-                                                    <a href="delete_product.php?id=<?php echo $product['product_id']; ?>" class="btn btn-sm btn-danger" onclick="return confirm('Delete this product?')">Delete</a>
+                                                    <a href="admin_approve_product.php?id=<?php echo $product['product_id']; ?>" class="btn btn-sm btn-success">Approve</a>
+                                                    <a href="admin_delete_product.php?id=<?php echo $product['product_id']; ?>" class="btn btn-sm btn-danger" onclick="return confirm('Delete this product?')">Delete</a>
                                                 </td>
                                             </tr>
                                             <?php endwhile; ?>

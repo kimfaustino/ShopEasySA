@@ -73,9 +73,9 @@ include 'admin_header.php';
                                         <td><?php echo number_format($product['views']); ?></td>
                                         <td>
                                             <?php if($product['status'] == 'pending'): ?>
-                                                <a href="approve_product.php?id=<?php echo $product['product_id']; ?>" class="btn btn-sm btn-success">Approve</a>
+                                                <a href="admin_approve_product.php?id=<?php echo $product['product_id']; ?>" class="btn btn-sm btn-success">Approve</a>
                                             <?php endif; ?>
-                                            <a href="delete_product.php?id=<?php echo $product['product_id']; ?>" class="btn btn-sm btn-danger" onclick="return confirm('Delete this product?')">Delete</a>
+                                            <a href="admin_delete_product.php?id=<?php echo $product['product_id']; ?>" class="btn btn-sm btn-danger" onclick="return confirm('Delete this product?')">Delete</a>
                                         </td>
                                     </tr>
                                     <?php endwhile; ?>

@@ -9,9 +9,9 @@ The platform allows South African users to register, list products for sale, bro
 
 ## Student Information
 
-** Student Name: ** Kimberly Faustino
-** Module : ** ITECA3-12 
-** Campus: ** Eduvos Mbombela
+**Student Name:** Kimberly Faustino
+**Module :** ITECA3-12 
+**Campus:** Eduvos Mbombela
 
 ## Live Website
 Customer Website
@@ -65,7 +65,7 @@ http://ShopEasySA.infinityfree.io/
 
 If you want to run ShopEasySA locally for development or testing:
 
-1. Download the repository.
+1. Download the repository (https://github.com/kimfaustino/ShopEasySA).
 2. Import 'database/shopeasysa' into MySQL using phpMyAdmin.
 3. Update 'config.php' with your local database credentials.
 4. Place the project files in your servers 'htdocs' directory (XAMMP).

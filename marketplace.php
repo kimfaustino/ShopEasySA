@@ -101,7 +101,7 @@ include 'header.php';
                     <?php while($product = $products->fetch_assoc()): ?>
                         <div class="col-12 col-md-6 col-lg-4">
                             <div class="card h-100 shadow-sm product-card">
-                                <img src="<?php echo $product['image_path']; ?>" 
+                                    <img src="<?php echo htmlspecialchars(str_replace('uploads/', '', $product['image_path'])); ?>" 
                                      class="card-img-top" 
                                      style="height: 200px; object-fit: cover" 
                                      alt="<?php echo htmlspecialchars($product['title']); ?>">
